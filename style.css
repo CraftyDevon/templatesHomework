@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	-moz-box-sizing: border-box; 
+ 	-webkit-box-sizing: border-box; 
+ 	box-sizing: border-box; 
+	}
+
+body{
+	background-color: #e3e7f0;
+}
+
+.contain{
+	position: relative;
+	width: 980px;
+	margin: 50px auto;
+}
+
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #2969a7;
+
+}
+
+header h1{
+	font-family: 'Helvetica';
+	color: white;
+	text-align: center;
+	padding: 17px 0 0 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.example1{
+	width: 100%;
+	height: 500px;
+	margin: 50px 0 0 0;
+	background-color: white;
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+	-moz-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+	box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+}
+
+.example1 h2{
+	font-family: 'Helvetica';
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px 0 0 0;
+	letter-spacing: 1px;
+}
+
+.expenses{
+	margin: 50px 0 0 30px;
+}
+
+.expenses h3{
+		font-family: 'Helvetica';
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	color: green;
+}
+
+.expenses p{
+	font-family: 'Helvetica';
+	padding: 5px 0 5px 0;
+}
+
+
+
+.example2{
+	width: 100%;
+	height: 500px;
+	margin: 50px 0 0 0;
+	background-color: white;
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+	-moz-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+	box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+}
+
+
+.example2 h3{
+	font-family: 'Helvetica';
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px 0 0 0;
+	letter-spacing: 1px;
+}
+
+.clicky{
+	position: relative;
+	width: 100px;
+	height: 50px;
+	top: 100px;
+	margin: 20px auto 0 auto;
+	background-color: green;
+}
+
+.example{
+	background-color: blue;
+}
+
+.example3{
+	width: 100%;
+	height: 500px;
+	margin: 50px 0 0 0;
+	background-color: white;
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+-moz-box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+box-shadow: 1px 3px 5px 0px rgba(204,208,219,1);
+}
+
+.example3 h4{
+	font-family: 'Helvetica';
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px 0 0 0;
+	letter-spacing: 1px;
+}
+
+.movies{
+	margin: 50px 0 0 30px;
+}
+
+.example3 h3{
+		font-family: 'Helvetica';
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	color: green;
+}
+
+.example3 p{
+	font-family: 'Helvetica';
+	padding: 5px 0 5px 0;
+}
