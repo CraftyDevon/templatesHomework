@@ -13,5 +13,3 @@ function Cookie(name){
 
 var pbCookie = new Cookie("pbCookie");
 var ccCookie = new Cookie("ccCookie");
-
-

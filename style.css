@@ -137,6 +137,18 @@ header h1{
 	letter-spacing: 1px;
 }
 
+.example2 h4{
+		font-family: 'Helvetica';
+	font-size: 18px;
+	padding: 0 0 5px 0;
+	color: green;
+}
+
+.example2 p{
+	font-family: 'Helvetica';
+	padding: 5px 0 5px 0;
+}
+
 .clicky{
 	position: relative;
 	width: 100px;

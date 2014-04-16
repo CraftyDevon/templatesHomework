@@ -35,7 +35,7 @@ var movieScores = [
 
 ];
 
-var movieTemplate = new Template(movieScores, "h3", "p");
+var movieTemplate = new Template(movieScores, "h4", "p");
 console.log(movieScores);
 
 
